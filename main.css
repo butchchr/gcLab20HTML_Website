@@ -1,0 +1,60 @@
+body {
+    background-image: url("rawpixel-567028-unsplash.jpg");
+    background-repeat: repeat-y;
+    background-size: 1920px 1080px;
+    color: white;
+    font-family:'Times New Roman';
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+a img {
+    vertical-align: middle;
+}
+
+nav.navbar ul {
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+}
+
+nav.navbar ul li {
+    display: inline-block;
+}
+
+.photo-text {
+    padding: 20px;
+}
+
+.photo-text .photo-link {
+    display: inline-block;
+    padding: 20px;
+}
+
+.photo-text .text {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding-left: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
